@@ -1,0 +1,157 @@
+[
+  {
+    "message": {
+      "logger": {
+        "transaction_id": "TXN10001",
+        "timestamp": "2026-04-18T10:15:30Z",
+        "payment": {
+          "amount": 1250.75,
+          "currency": "USD",
+          "status": "SUCCESS"
+        },
+        "accounts": {
+          "sender": {
+            "IBAN": "FR7630006000011234567890189",
+            "BIC": "AGRIFRPPXXX"
+          },
+          "receiver": {
+            "IBAN": "DE89370400440532013000",
+            "BIC": "COBADEFFXXX"
+          }
+        },
+        "format": {
+          "type": "SWIFT",
+          "version": "v1.0",
+          "details": {
+            "channel": "ONLINE",
+            "priority": "HIGH"
+          }
+        }
+      }
+    }
+  },
+  {
+    "message": {
+      "logger": {
+        "transaction_id": "TXN10002",
+        "timestamp": "2026-04-18T11:20:10Z",
+        "payment": {
+          "amount": 5400,
+          "currency": "EUR",
+          "status": "FAILED"
+        },
+        "accounts": {
+          "sender": {
+            "IBAN": "IT60X0542811101000000123456",
+            "BIC": "BPPIITRRXXX"
+          },
+          "receiver": {
+            "IBAN": "ES9121000418450200051332",
+            "BIC": "CAIXESBBXXX"
+          }
+        },
+        "format": {
+          "type": "SEPA",
+          "version": "v1.0",
+          "details": {
+            "channel": "MOBILE",
+            "priority": "LOW"
+          }
+        }
+      }
+    }
+  },
+  {
+    "message": {
+      "logger": {
+        "transaction_id": "TXN10003",
+        "timestamp": "2026-04-18T12:05:45Z",
+        "payment": {
+          "amount": 980.50,
+          "currency": "INR",
+          "status": "SUCCESS"
+        },
+        "accounts": {
+          "sender": {
+            "IBAN": "INR000123456789",
+            "BIC": "HDFCINBBXXX"
+          },
+          "receiver": {
+            "IBAN": "INR000987654321",
+            "BIC": "ICICINBBXXX"
+          }
+        },
+        "format": {
+          "type": "NEFT",
+          "version": "v2.0",
+          "details": {
+            "channel": "API",
+            "priority": "HIGH"
+          }
+        }
+      }
+    }
+  },
+  {
+    "message": {
+      "logger": {
+        "transaction_id": "TXN10004",
+        "timestamp": "2026-04-18T13:10:00Z",
+        "payment": {
+          "amount": 15000,
+          "currency": "USD",
+          "status": "SUCCESS"
+        },
+        "accounts": {
+          "sender": {
+            "IBAN": "US123456789012345",
+            "BIC": "BOFAUS3NXXX"
+          },
+          "receiver": {
+            "IBAN": "GB29NWBK60161331926819",
+            "BIC": "NWBKGB2LXXX"
+          }
+        },
+        "format": {
+          "type": "SWIFT",
+          "version": "v1.1",
+          "details": {
+            "channel": "ONLINE",
+            "priority": "HIGH"
+          }
+        }
+      }
+    }
+  },
+  {
+    "message": {
+      "logger": {
+        "transaction_id": "TXN10005",
+        "timestamp": "2026-04-18T14:30:25Z",
+        "payment": {
+          "amount": 220.00,
+          "currency": "EUR",
+          "status": "FAILED"
+        },
+        "accounts": {
+          "sender": {
+            "IBAN": "FR7630006000010000000000000",
+            "BIC": "AGRIFRPPXXX"
+          },
+          "receiver": {
+            "IBAN": "NL91ABNA0417164300",
+            "BIC": "ABNANL2AXXX"
+          }
+        },
+        "format": {
+          "type": "SEPA",
+          "version": "v1.0",
+          "details": {
+            "channel": "MOBILE",
+            "priority": "LOW"
+          }
+        }
+      }
+    }
+  }
+]
