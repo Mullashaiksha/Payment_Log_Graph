@@ -90,7 +90,7 @@ def store_transaction(graph, record):
 # -----------------------------
 def process_files(graph, files):
 
-    clear_database(graph)   # 🔥 IMPORTANT RESET
+    clear_database(graph)   
 
     count = 0
 
@@ -102,7 +102,7 @@ def process_files(graph, files):
                 store_transaction(graph, record)
                 count += 1
 
-    st.success(f"Inserted {count} transactions ✅")
+    st.success(f"Inserted {count} transactions")
 
 
 # -----------------------------
@@ -237,7 +237,7 @@ def main():
 
     if st.sidebar.button("Connect"):
         st.session_state.graph = Neo4jGraph(url=url, username=user, password=pwd)
-        st.success("Connected ✅")
+        st.success("Connected")
 
     if st.session_state.graph and api_key:
 
